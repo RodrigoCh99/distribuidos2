@@ -1,0 +1,43 @@
+por que usar processamento distribuido:
+
+quando o volume de dados é muito grande para uma máquina ou o algoritmo é muito complexo para ser processado por uma máquina.
+
+para ser um sistema distribuido:
+
+1º Conectividade 
+2º Abertura (interoperabilidade=capacidade de processamento entre sistemas, portabilidade=processos funcionarem em diferentes máquinas por meio de portabilidade)
+3º Escalabilidade (capacidade de crescer geograficamente, administrativa (gestão)=software para gerenciar servidores para clientes, tamanho em número de máquinas)
+4º Transparencia (esconder do usuario o que é feito)
+|
+|__ acesso.
+|__ falha.
+|__ performace.
+|__ escalabilidade.
+|__ transparencia de migração.
+____________________________________________________________________
+||CAI NA PROVA|| ==== transparência de acesso =====||CAI NA PROVA||
+____________________________________________________________________
+
+
+não é possível ter todos os 4 ao mesmo tempo pois perde-se processamento.
+
+É importante entender que existe o hardware e o sistema operacional de rede depois os protocolos de rede (IP), acima disso a camada de transporte (TCP, UDP).
+a plataforma para desenvolvimento desistema distribuido: onde o sistema distribuido será usado [SO + HARDWARE] exemplo: linux com intel.
+acima da camada de transporte está o midllewhere, que é responsável pela comunicação entre o hardware e outras coisas
+midllewere é o que permite os sistemas distribuidos funcionarem. middle promovem persistencia de chamada, segurança e outras coisas.
+middlewere é um conjunto de código que se usa.
+
+middlewere é um software que abstrai as complicações e permite atuar em distemas distribuidos 
+
+existem muitos tipos de middlewere:
+
+- estudar quais são
+
+__________________________________________________________________________________________________________________________________________
+|||||||||||||||||||||| ===========================================>>>> sistemas centralizados são ruins e sistemas distribuidos são bons
+__________________________________________________________________________________________________________________________________________
+
+peer to peer -> são modelos de arquitetura 
+
+métricas de rede: latência gip e largura de banda
+
